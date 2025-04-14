@@ -1,6 +1,6 @@
 from fastapi import FastAPI, Query
 from fastapi.responses import JSONResponse
-import snscrape.modules.twitter as sntwitter
+import snscrape.modules.twitter as snx
 import pandas as pd
 
 app = FastAPI()
